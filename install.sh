@@ -1,7 +1,7 @@
 #Installing software
 sudo apt-get install guake terminator compizconfig-settings-manager chromium-browser
-cinnamon bluefish git wine netflix-desktop steam-launcher spotify-client compiz-plugins compiz-core compiz-plugins-extra compiz-plugins-main
- -y
+cinnamon bluefish git wine netflix-desktop steam-launcher spotify-client compiz-plugins 
+compiz-core compiz-plugins-extra compiz-plugins-main filezilla -y
 
 
 #Adding Repositories 
