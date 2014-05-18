@@ -3,7 +3,8 @@ sudo apt-get install guake terminator compizconfig-settings-manager chromium-bro
 cinnamon bluefish git wine netflix-desktop steam-launcher spotify-client compiz-plugins 
 compiz-core compiz-plugins-extra compiz-plugins-main filezilla gedit autokey-qt autokey-common 
 autokey-gtk clementine deluge terminator virtualbox-4.3 pidgin pidgin-encryption pidgin-themes 
-pidgin-twitter bluefish anjuta glade gcc-4.8 kdevelop inkscape -y
+pidgin-twitter bluefish anjuta glade gcc-4.8 kdevelop inkscape imagemagick gcolor2 phpmyadmin
+drush tasksel lynx -y
 
 #Adding Repositories 
 sudo add-apt-repository ppa:pipelight/stable
@@ -15,7 +16,7 @@ wget -O- http://repo.steampowered.com/steam/signature.gpg | sudo apt-key add -
 
 #Updating software
 sudo apt-get update -y
-
+sudo drush dl drush --destination='/usr/share'
 #Upgrading software
 sudo apt-get upgrade -y 
 
