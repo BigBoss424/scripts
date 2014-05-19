@@ -7,7 +7,7 @@ pidgin-twitter bluefish anjuta glade gcc-4.8 kdevelop inkscape imagemagick gcolo
 drush tasksel lynx ruby-full rubygems1.8 -y
 
 #Installing Ruby gems
-sudo gem install sass compass -y 
+sudo gem install sass compass zen-grids sassy-buttons -y 
 
 #Adding Repositories 
 sudo add-apt-repository ppa:pipelight/stable
