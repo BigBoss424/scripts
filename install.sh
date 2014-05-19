@@ -4,7 +4,7 @@ cinnamon bluefish git wine netflix-desktop steam-launcher spotify-client compiz-
 compiz-core compiz-plugins-extra compiz-plugins-main filezilla gedit autokey-qt autokey-common 
 autokey-gtk clementine deluge terminator virtualbox-4.3 pidgin pidgin-encryption pidgin-themes 
 pidgin-twitter bluefish anjuta glade gcc-4.8 kdevelop inkscape imagemagick gcolor2 phpmyadmin
-drush tasksel lynx ruby-full rubygems1.8 -y
+drush tasksel lynx ruby-full rubygems1.8 gnustep monodevelop -y
 
 #Installing Ruby gems
 sudo gem install sass compass zen-grids sassy-buttons -y 
