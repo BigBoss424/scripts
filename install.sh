@@ -6,12 +6,14 @@ autokey-gtk clementine deluge terminator virtualbox-4.3 pidgin pidgin-encryption
 pidgin-twitter bluefish anjuta glade gcc-4.8 kdevelop inkscape imagemagick gcolor2 phpmyadmin
 drush tasksel lynx ruby-full rubygems1.8 gnustep monodevelop mono-4.0-gac mono-4.0-service 
 mono-addins-utils codeblocks mingw-w64 scribus cheese zoneminder motion ekiga hasciicam 
-cmake cmake-curses-gui cmake-data cmake-dbg cmake-doc cmake-qt-gui -y
+cmake cmake-curses-gui cmake-data cmake-dbg cmake-doc cmake-qt-gui geany geany-plugin-addons 
+geany-plugin-codenav geany-plugin-spellcheck ninja-ide -y
 
 #Installing Ruby gems
 sudo gem install sass compass zen-grids sassy-buttons -y 
 
 #Adding Repositories 
+sudo apt-add-repository ppa:ninja-ide-developers/ninja-ide-stable
 sudo add-apt-repository ppa:pipelight/stable
 #sudo deb http://repo.steampowered.com/steam/precise steam
 sudo add-apt-repository "deb http://repository.spotify.com stable non-free"
