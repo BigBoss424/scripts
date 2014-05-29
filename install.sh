@@ -8,7 +8,8 @@ drush tasksel lynx ruby-full rubygems1.8 gnustep monodevelop mono-4.0-gac mono-4
 mono-addins-utils codeblocks mingw-w64 scribus cheese zoneminder motion ekiga hasciicam 
 cmake cmake-curses-gui cmake-data cmake-dbg cmake-doc cmake-qt-gui geany geany-plugin-addons 
 geany-plugin-codenav geany-plugin-spellcheck ninja-ide wordpress wordpress-l10n 
-wordpress-openid wordpress-shibboleth wordpress-xrds-simple -y
+wordpress-openid wordpress-shibboleth wordpress-xrds-simple openssh-client openssh-blacklist 
+openssh-server openssh-blacklist-extra -y
 
 #Installing Ruby gems
 sudo gem install sass compass zen-grids sassy-buttons -y 
