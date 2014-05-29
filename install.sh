@@ -7,7 +7,8 @@ pidgin-twitter bluefish anjuta glade gcc-4.8 kdevelop inkscape imagemagick gcolo
 drush tasksel lynx ruby-full rubygems1.8 gnustep monodevelop mono-4.0-gac mono-4.0-service 
 mono-addins-utils codeblocks mingw-w64 scribus cheese zoneminder motion ekiga hasciicam 
 cmake cmake-curses-gui cmake-data cmake-dbg cmake-doc cmake-qt-gui geany geany-plugin-addons 
-geany-plugin-codenav geany-plugin-spellcheck ninja-ide -y
+geany-plugin-codenav geany-plugin-spellcheck ninja-ide wordpress wordpress-l10n 
+wordpress-openid wordpress-shibboleth wordpress-xrds-simple -y
 
 #Installing Ruby gems
 sudo gem install sass compass zen-grids sassy-buttons -y 
