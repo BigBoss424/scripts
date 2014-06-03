@@ -23,7 +23,7 @@ sudo add-apt-repository "deb http://repository.spotify.com stable non-free"
 sudo add-apt-repository "deb http://repo.steampowered.com/steam/ precise steam"
 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 94558F59
 wget -O- http://repo.steampowered.com/steam/signature.gpg | sudo apt-key add -
-
+wget -O - "https://www.dropbox.com/download?plat=lnx.x86_64" | tar xzf -
 #Updating software
 sudo apt-get update -y
 sudo drush dl drush --destination='/usr/share'
