@@ -11,12 +11,13 @@ geany-plugin-codenav geany-plugin-spellcheck ninja-ide wordpress wordpress-l10n
 wordpress-openid wordpress-shibboleth wordpress-xrds-simple openssh-client openssh-blacklist 
 openssh-server openssh-blacklist-extra php5-gd libssh2-php tlp tlp-rdw rar php-apc php5-intl vsftpd 
 scanmem netbeans refdb-clients refdb-doc refdb-server refdb netstat-nat iptraf nagios3 cacti ksysguard
-vpnc desmume visualboyadvance-gtk audacity openshot -y
+vpnc desmume visualboyadvance-gtk audacity openshot cinelerra -y
 
 #Installing Ruby gems
 sudo gem install sass compass zen-grids sassy-buttons -y 
 
-#Adding Repositories 
+#Adding Repositories
+sudo apt-add-repository ppa:cinelerra-ppa/ppa 
 sudo add-apt-repository ppa:linrunner/tlp
 sudo apt-add-repository ppa:ninja-ide-developers/ninja-ide-stable
 sudo add-apt-repository ppa:pipelight/stable
