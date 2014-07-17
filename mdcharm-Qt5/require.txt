@@ -1,0 +1,2 @@
+Qt 4.8.1+
+libhunspell 1.3+
